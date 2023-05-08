@@ -1,0 +1,11 @@
+{
+  "name": "api",
+  "version": "0.1.0",
+  "description": "The API for this app",
+  "main": "dist/start.js",
+  "author": "Colin Cédric",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^20.1.0"
+  }
+}
