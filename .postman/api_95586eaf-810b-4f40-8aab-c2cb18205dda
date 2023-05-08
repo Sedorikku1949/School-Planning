@@ -9,7 +9,7 @@ id = 95586eaf-810b-4f40-8aab-c2cb18205dda
 
 [config.relations.collections]
 rootDirectory = postman/collections
-files[] = {"id":"18249557-a085e040-680d-415d-93e0-3e599a6ae9ac","path":"School Planning.json","metaData":{}}
+files[] = {"id":"18249557-a085e040-680d-415d-93e0-3e599a6ae9ac","path":"API.json","metaData":{}}
 
 [config.relations.collections.metaData]
 

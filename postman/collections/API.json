@@ -1,0 +1,306 @@
+{
+	"info": {
+		"_postman_id": "a085e040-680d-415d-93e0-3e599a6ae9ac",
+		"name": "API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_uid": "18249557-a085e040-680d-415d-93e0-3e599a6ae9ac"
+	},
+	"item": [
+		{
+			"name": "users",
+			"item": [
+				{
+					"name": "me",
+					"id": "0a70e7b0-1131-4d00-862d-d3994e67a38c",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{adress}}/users/me",
+							"host": [
+								"{{adress}}"
+							],
+							"path": [
+								"users",
+								"me"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": ":user_id",
+					"id": "4ea422cc-00b4-47b6-a96d-fa1060edebfb",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{adress}}/users/:user_id",
+							"host": [
+								"{{adress}}"
+							],
+							"path": [
+								"users",
+								":user_id"
+							],
+							"variable": [
+								{
+									"key": "user_id",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": ":user_id",
+					"id": "295e56ed-0b87-401c-b2ec-d2d3a6ed3a63",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{adress}}/users/:user_id",
+							"host": [
+								"{{adress}}"
+							],
+							"path": [
+								"users",
+								":user_id"
+							],
+							"variable": [
+								{
+									"key": "user_id",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": ":user_id",
+					"id": "5ea0a802-3cf1-44ff-94c9-cfda591c7e82",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"url": {
+							"raw": "{{adress}}/users/:user_id",
+							"host": [
+								"{{adress}}"
+							],
+							"path": [
+								"users",
+								":user_id"
+							],
+							"variable": [
+								{
+									"key": "user_id",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"id": "a0fc0c0d-8425-4bb7-84a7-6442b4c0390b"
+		},
+		{
+			"name": "calendar",
+			"item": [
+				{
+					"name": "me",
+					"id": "ef34154b-ce1a-41ad-9176-df8e89b4bb7b",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{adress}}/calendar/me",
+							"host": [
+								"{{adress}}"
+							],
+							"path": [
+								"calendar",
+								"me"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "[blank]",
+					"id": "a6d93028-e3f2-4e7b-aadf-e99a178582a4",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{adress}}/calendar",
+							"host": [
+								"{{adress}}"
+							],
+							"path": [
+								"calendar"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "[blank]",
+					"id": "2f14a758-8059-4468-98f2-131900f6a949",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{adress}}/calendar",
+							"host": [
+								"{{adress}}"
+							],
+							"path": [
+								"calendar"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "[blank]",
+					"id": "3c302494-eb52-4fea-8b20-a49ab8d78f57",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"url": {
+							"raw": "{{adress}}/calendar",
+							"host": [
+								"{{adress}}"
+							],
+							"path": [
+								"calendar"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"id": "4eac883d-686a-4c6a-9a7a-2bdfb1a38df6"
+		},
+		{
+			"name": "ping",
+			"id": "379c613f-6cc8-4001-8a0d-4651731bf4d3",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{adress}}/",
+					"host": [
+						"{{adress}}"
+					],
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "register",
+			"id": "53b72375-d203-4d38-a530-25b872158acc",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{adress}}/register",
+					"host": [
+						"{{adress}}"
+					],
+					"path": [
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "login",
+			"id": "40d8e115-c3c7-4561-ba6d-a596b14bc823",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{adress}}/login:user_id",
+					"host": [
+						"{{adress}}"
+					],
+					"path": [
+						"login:user_id"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "c89a33e9-baba-4099-99b6-14c03b4f5224",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "7ccf5322-8a66-4c00-936f-96cec4948d60",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"id": "95369ac6-c150-49e2-99b3-4962fe900165",
+			"key": "adress",
+			"value": "0.0.0.0:5500",
+			"type": "string"
+		}
+	]
+}
