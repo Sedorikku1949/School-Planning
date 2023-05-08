@@ -1,0 +1,61 @@
+{
+	"info": {
+		"_postman_id": "a085e040-680d-415d-93e0-3e599a6ae9ac",
+		"name": "School Planning",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_uid": "18249557-a085e040-680d-415d-93e0-3e599a6ae9ac"
+	},
+	"item": [
+		{
+			"name": "ping",
+			"id": "379c613f-6cc8-4001-8a0d-4651731bf4d3",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{adress}}/",
+					"host": [
+						"{{adress}}"
+					],
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "c89a33e9-baba-4099-99b6-14c03b4f5224",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "7ccf5322-8a66-4c00-936f-96cec4948d60",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"id": "95369ac6-c150-49e2-99b3-4962fe900165",
+			"key": "adress",
+			"value": "0.0.0.0:5500",
+			"type": "string"
+		}
+	]
+}
